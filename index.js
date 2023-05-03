@@ -9,6 +9,9 @@ app.use(cors());
 app.get('/', (req, res) => {
   res.send(ChefData)
 })
+app.get('/chefDetails', (req, res) => {
+  res.send(ChefData)
+})
 
 
 app.listen(port, () => {
