@@ -19,5 +19,5 @@ app.get('/chefDetails', (req, res) => {
 
 
 app.listen(port, () => {
-  console.log(` ${port}`)
+  console.log(`ChefMafia is running on ${port}`)
 })
